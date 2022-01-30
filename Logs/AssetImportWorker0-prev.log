@@ -1,0 +1,422 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.1466; Version 2009; 64bit' Language: 'es' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Documentos/Proyectos Unity/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50891
+Successfully changed project path to: D:/Documentos/Proyectos Unity/My project
+D:/Documentos/Proyectos Unity/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documentos/Proyectos Unity/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003320 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 93.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.916 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1916ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1461ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1175ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.1 MB.
+System memory in use after: 122.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3136.
+Total: 4.573500 ms (FindLiveObjects: 0.362200 ms CreateObjectMapping: 0.071800 ms MarkObjects: 4.020300 ms  DeleteObjects: 0.117100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffd2c44ffeb50c574abb5d0c4453328') in 0.064536 seconds 
+  Import took 0.331410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.306386 seconds.
+  path: Assets/GuidedProjectStarterFiles.unitypackage
+  artifactKey: Guid(235c19cd0cfd6474faed2d32b30310da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProjectStarterFiles.unitypackage using Guid(235c19cd0cfd6474faed2d32b30310da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b455d7e2f232b87b9bff89929f2c82') in 0.029914 seconds 
+  Import took 0.034048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.383131 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7c01bc8ed57adf1ede3d700e613d7f') in 0.012610 seconds 
+  Import took 0.017099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.275998 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Prefabs/Buildings/Building_Cafe.prefab
+  artifactKey: Guid(1fdb0c3304466e14998971b7821dd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Buildings/Building_Cafe.prefab using Guid(1fdb0c3304466e14998971b7821dd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db954c3176d65cd0725a166ee0530621') in 0.917470 seconds 
+  Import took 0.923729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Prefabs/Buildings/Building_Hotel.prefab
+  artifactKey: Guid(a901cbd1539f3c14eb150e0e9c67e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Buildings/Building_Hotel.prefab using Guid(a901cbd1539f3c14eb150e0e9c67e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bca5483deac67564c3665c244733faf') in 0.061986 seconds 
+  Import took 0.067708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Prefabs/Buildings/Building_Pub.prefab
+  artifactKey: Guid(851be73f04cbc0346959b8445aedf5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Buildings/Building_Pub.prefab using Guid(851be73f04cbc0346959b8445aedf5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4489e6dbafa3ab53a9c5bf89e5de5a0') in 0.051514 seconds 
+  Import took 0.057566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Prefabs/Buildings/Building_Shop.prefab
+  artifactKey: Guid(680c6f09ac22d4b448f847ba971990fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Buildings/Building_Shop.prefab using Guid(680c6f09ac22d4b448f847ba971990fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455bcf156b9eb5aa5ed02f4ea192b28e') in 0.044960 seconds 
+  Import took 0.050749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.268207 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment
+  artifactKey: Guid(92cadd1115ce6ca4884b5761670414ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment using Guid(92cadd1115ce6ca4884b5761670414ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc76b257230f4f12cefd26128c933c46') in 0.006647 seconds 
+  Import took 0.011270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050417 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/BeachBall.fbx
+  artifactKey: Guid(813c6375c5ad1f540b9b1eed2013893d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/BeachBall.fbx using Guid(813c6375c5ad1f540b9b1eed2013893d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80252c468af1019e3012ffd5256a2d5') in 0.279327 seconds 
+  Import took 0.283539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Water_Plane.fbx
+  artifactKey: Guid(52d885d525e56f845b1f962df1c7d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Water_Plane.fbx using Guid(52d885d525e56f845b1f962df1c7d1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d35811fa50163b6c530b00ce04db43') in 0.936318 seconds 
+  Import took 0.940277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Building_Shop.FBX
+  artifactKey: Guid(d674f56daea65d74f8f0df441a823195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Building_Shop.FBX using Guid(d674f56daea65d74f8f0df441a823195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38185d519a7b8520c0ddb8072feca54e') in 0.201309 seconds 
+  Import took 0.205598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Edge Steps.FBX
+  artifactKey: Guid(73b3b5f78ab5ca5428b02e2276b2c673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Edge Steps.FBX using Guid(73b3b5f78ab5ca5428b02e2276b2c673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39deef5e3bb987824929806ad1c81e1e') in 0.144231 seconds 
+  Import took 0.148319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_WallPebbles_Steps.FBX
+  artifactKey: Guid(4e8c722218dd9f4449a871a4f0094728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_WallPebbles_Steps.FBX using Guid(4e8c722218dd9f4449a871a4f0094728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112c022894d478450114d09026c36325') in 0.104676 seconds 
+  Import took 0.108605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Fire_Log Pile.FBX
+  artifactKey: Guid(7ec6f14accd2440408810f7a7436ac3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Fire_Log Pile.FBX using Guid(7ec6f14accd2440408810f7a7436ac3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb1e08a0d564814310695f4b1472fa6') in 0.077758 seconds 
+  Import took 0.081672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_WallPebbles_2.FBX
+  artifactKey: Guid(4c84245eb1583734885329b8767eff6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_WallPebbles_2.FBX using Guid(4c84245eb1583734885329b8767eff6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3263ee8a5b2510addf22165127e025b5') in 0.082072 seconds 
+  Import took 0.085954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Lamp_Tall.FBX
+  artifactKey: Guid(d85fe330dc4f0074eadd0bbfbd42a7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Lamp_Tall.FBX using Guid(d85fe330dc4f0074eadd0bbfbd42a7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1672f4844932305ae9ca617e47ad7dc') in 0.035433 seconds 
+  Import took 0.039315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Edge Corner.FBX
+  artifactKey: Guid(18b8519f3b55c384a96160d6af0f4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Edge Corner.FBX using Guid(18b8519f3b55c384a96160d6af0f4867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4897eabed6b0d526fe7204646b429a8') in 0.077632 seconds 
+  Import took 0.081413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Edge.FBX
+  artifactKey: Guid(667cfd9eb02155a44bd6ba7cee3f3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Edge.FBX using Guid(667cfd9eb02155a44bd6ba7cee3f3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b362c1f68780fd8c6e9db702eabcb47') in 0.077056 seconds 
+  Import took 0.081031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Lamp_Wall.FBX
+  artifactKey: Guid(09394d1736585314fb7474f65d2d2103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Lamp_Wall.FBX using Guid(09394d1736585314fb7474f65d2d2103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5531fe717d7f4c0ab8da3fca7c19f5e') in 0.034985 seconds 
+  Import took 0.038941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Pebbles Corner.FBX
+  artifactKey: Guid(1940569dd24389943babf318eea18bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Pebbles Corner.FBX using Guid(1940569dd24389943babf318eea18bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fbdbbf0ea6b986fb072246ed3c3a26') in 0.032097 seconds 
+  Import took 0.038271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001227 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Pavement.FBX
+  artifactKey: Guid(5fd27dfffd6864e4784da1443451a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Pavement.FBX using Guid(5fd27dfffd6864e4784da1443451a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f125305a128ecc9652f4e9956eb923') in 0.026965 seconds 
+  Import took 0.031932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_PavementRoad.FBX
+  artifactKey: Guid(33fa59857d7ec6e468808aca63d2f07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_PavementRoad.FBX using Guid(33fa59857d7ec6e468808aca63d2f07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4506622fb0ef772a314899e9b0e19602') in 0.030236 seconds 
+  Import took 0.034641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Building_Hotel.FBX
+  artifactKey: Guid(68bc1e1e95b496249b9dd0f1c74d19bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Building_Hotel.FBX using Guid(68bc1e1e95b496249b9dd0f1c74d19bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae4301746f3c4396e470ab506c13e8c') in 0.375716 seconds 
+  Import took 0.379995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Building_Cafe.FBX
+  artifactKey: Guid(177da944852681c459dd564d0da78139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Building_Cafe.FBX using Guid(177da944852681c459dd564d0da78139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5421c5b5fab9b0956558a6fb8ea28d93') in 0.093946 seconds 
+  Import took 0.098339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_PavementRoad_Corner.FBX
+  artifactKey: Guid(19f74d0b479c16b48974edd7f9a9bd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_PavementRoad_Corner.FBX using Guid(19f74d0b479c16b48974edd7f9a9bd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cebad8d5d8af6c7d4f711d8ec55f5ad') in 0.019124 seconds 
+  Import took 0.023226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_WallPebbles_1.FBX
+  artifactKey: Guid(69936187bc88b9b4cb97f9917f5f9bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_WallPebbles_1.FBX using Guid(69936187bc88b9b4cb97f9917f5f9bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e07a480eb79ec2d900431b2dd09a1cc') in 0.064613 seconds 
+  Import took 0.068528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Building_Pub.FBX
+  artifactKey: Guid(c2716a003d4698545a2da66c54ab7c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Building_Pub.FBX using Guid(c2716a003d4698545a2da66c54ab7c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d7b9af04d3deefde91541fadc9f010') in 0.191906 seconds 
+  Import took 0.196404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Drain.FBX
+  artifactKey: Guid(a788dce900b5b87479d9fd6ee495f08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Drain.FBX using Guid(a788dce900b5b87479d9fd6ee495f08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71a456a605f7de94ac8b47cd8ecbafb') in 0.021643 seconds 
+  Import took 0.025449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Flag.fbx
+  artifactKey: Guid(db575c8a2ebd40e419fa997768cab293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Flag.fbx using Guid(db575c8a2ebd40e419fa997768cab293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627c8d640c30dccad49ffca2dcd4d6b2') in 0.037034 seconds 
+  Import took 0.041111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Pebbles.FBX
+  artifactKey: Guid(e86fccfd4a282874a86299f526777c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_Pebbles.FBX using Guid(e86fccfd4a282874a86299f526777c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d96c68a1d93c0bb2472ed53b4974220') in 0.020189 seconds 
+  Import took 0.024117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_WallPebbles_Corner.FBX
+  artifactKey: Guid(4f53fc8c7b7825440986bce4450ec45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Models/Environment/Ground_WallPebbles_Corner.FBX using Guid(4f53fc8c7b7825440986bce4450ec45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79970dae7beab57180c3dbdc6e999422') in 0.080107 seconds 
+  Import took 0.084020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.421131 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Prefabs
+  artifactKey: Guid(5f0affd24fbf6c84aac32f2f4de7b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Prefabs using Guid(5f0affd24fbf6c84aac32f2f4de7b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34bab2f4117476463c806dd051e5101') in 0.006419 seconds 
+  Import took 0.010885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057055 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Prefabs/BeachsideTown_StarterEnvironment.prefab
+  artifactKey: Guid(853ee6db66da89246a05a521c995da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Prefabs/BeachsideTown_StarterEnvironment.prefab using Guid(853ee6db66da89246a05a521c995da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a89b8be603329c620e50976453211f') in 0.440104 seconds 
+  Import took 0.456704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.660700 seconds.
+  path: Assets/GuidedProject/AlienVideoGameShop/Prefabs/AlienVideoGameShop_StarterEnvironment.prefab
+  artifactKey: Guid(a6d80765aedf8b940bc1d65943d787c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/AlienVideoGameShop/Prefabs/AlienVideoGameShop_StarterEnvironment.prefab using Guid(a6d80765aedf8b940bc1d65943d787c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cc53376288886e501f1ba1d11fddf5') in 1.155879 seconds 
+  Import took 1.165840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/GuidedProject/Shared/Audio/SoundEffects/MenuButtonStart.ogg
+  artifactKey: Guid(610f1e9a314b9304a9e9c22536a3420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/Shared/Audio/SoundEffects/MenuButtonStart.ogg using Guid(610f1e9a314b9304a9e9c22536a3420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be6252f5017ee929a5f558cd407529b') in 0.035816 seconds 
+  Import took 0.040124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/GuidedProject/ArchitecturalRendering/Prefabs/ArchitecturalRendering_StarterEnvironment.prefab
+  artifactKey: Guid(0d37b8b98879ecc4ea439140dbf04d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/ArchitecturalRendering/Prefabs/ArchitecturalRendering_StarterEnvironment.prefab using Guid(0d37b8b98879ecc4ea439140dbf04d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce933c49bc7b7abc3da4913fe1fb3ac') in 1.874922 seconds 
+  Import took 1.883303 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
