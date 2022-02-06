@@ -15,11 +15,11 @@ D:/Documentos/Proyectos Unity/GuidedProject-CreativeCore
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49229
+56666
 Successfully changed project path to: D:/Documentos/Proyectos Unity/GuidedProject-CreativeCore
 D:/Documentos/Proyectos Unity/GuidedProject-CreativeCore
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,76 +35,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003909 seconds.
+Registered in 0.003482 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.608 seconds
+- Completed reload, in  1.532 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1608ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (1532ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (502ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (206ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (92ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004769 seconds.
+Registered in 0.004864 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.319 seconds
+- Completed reload, in  1.291 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1320ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (164ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1069ms)
-			LoadAssemblies (113ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1054ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (346ms)
+			SetupTypeCache (334ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (404ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (414ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (95ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (98ms)
 				ProcessInitializeOnLoadAttributes (226ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,15 +112,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.38 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2706 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.0 MB.
-System memory in use after: 125.2 MB.
+Unloading 2708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.7 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3143.
-Total: 4.708200 ms (FindLiveObjects: 0.295300 ms CreateObjectMapping: 0.073100 ms MarkObjects: 4.226500 ms  DeleteObjects: 0.111700 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3146.
+Total: 4.333800 ms (FindLiveObjects: 0.301400 ms CreateObjectMapping: 0.072600 ms MarkObjects: 3.864900 ms  DeleteObjects: 0.093000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,1083 +134,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_Corner_MetallicSmoothness.png
-  artifactKey: Guid(e8346e2191d29a041aa666a62b247dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_Corner_MetallicSmoothness.png using Guid(e8346e2191d29a041aa666a62b247dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52280e7f4300f3a31dee7a292313f0fc') in 0.155493 seconds 
-  Import took 0.159917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_Corner_Normal.png
-  artifactKey: Guid(380bc43e89e811e45a8b3139041dd31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_Corner_Normal.png using Guid(380bc43e89e811e45a8b3139041dd31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82291747b8982680c8c1a6231c9a412b') in 0.063038 seconds 
-  Import took 0.081210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_Corner_AO.png
-  artifactKey: Guid(0ad41a92fc45d7e4fb9b0af2d27c319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_Corner_AO.png using Guid(0ad41a92fc45d7e4fb9b0af2d27c319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb26292191fadcbf6fd33838a8d7e4e') in 0.018087 seconds 
-  Import took 0.023118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_PavementRoad_Normal.png
-  artifactKey: Guid(c4919cb7363b1094c9431bc1aa200ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_PavementRoad_Normal.png using Guid(c4919cb7363b1094c9431bc1aa200ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caa1bde8ea33eb03eafb97f2ec29dfe') in 0.016917 seconds 
-  Import took 0.021396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/PillarsBlocks_MetallicSmoothness.png
-  artifactKey: Guid(57b22ac32fb51974080deab8c3b635e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/PillarsBlocks_MetallicSmoothness.png using Guid(57b22ac32fb51974080deab8c3b635e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb839465ebe1a93d56fa16c315919cf') in 0.022532 seconds 
-  Import took 0.027032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_Edge_AO.png
-  artifactKey: Guid(b6b8c10c5d1d9574fa9eed595426dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_Edge_AO.png using Guid(b6b8c10c5d1d9574fa9eed595426dfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca7057d5312b5d3cc50f572fed009c5') in 0.059569 seconds 
-  Import took 0.063785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Roof_AO.png
-  artifactKey: Guid(4e92cf4057419754c8ba465ac8bd4815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Roof_AO.png using Guid(4e92cf4057419754c8ba465ac8bd4815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464f29c565d3a065ea43ceed4df555ae') in 0.016239 seconds 
-  Import took 0.020508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Log_Normal.png
-  artifactKey: Guid(43cc859bfb242f346b412e8fdf36e739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Log_Normal.png using Guid(43cc859bfb242f346b412e8fdf36e739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1788951e88434897ebd4a624f705c787') in 0.062762 seconds 
-  Import took 0.066622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Character_Kim_MetallicSmoothness.png
-  artifactKey: Guid(40e2f7be1498af74daa462062afe3996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Character_Kim_MetallicSmoothness.png using Guid(40e2f7be1498af74daa462062afe3996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9190d838c53a47cc1ba3f46ebca88377') in 0.121184 seconds 
-  Import took 0.124933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Character_Kim_Normal.png
-  artifactKey: Guid(370a6fe0b868fc54d9368b4bdfbc2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Character_Kim_Normal.png using Guid(370a6fe0b868fc54d9368b4bdfbc2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aec78b874fa8d512ea74775c80e7a2a') in 0.084894 seconds 
-  Import took 0.088728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Character_Kim_Light_Albedo.png
-  artifactKey: Guid(dbfce848414abc24a9b4c2294f1dbba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Character_Kim_Light_Albedo.png using Guid(dbfce848414abc24a9b4c2294f1dbba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37de015ca13f52ca08da3d2be58cb604') in 0.104840 seconds 
-  Import took 0.153633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/PillarsBlocks_AO.png
-  artifactKey: Guid(7b600e325ea601942a28a0c92095ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/PillarsBlocks_AO.png using Guid(7b600e325ea601942a28a0c92095ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bab92f73f736d3e006242a5eae175fe') in 0.014361 seconds 
-  Import took 0.018506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_PavementRoad_AO.png
-  artifactKey: Guid(efe7e7a3a542f024c96bf7f03a286373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_PavementRoad_AO.png using Guid(efe7e7a3a542f024c96bf7f03a286373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac6e910db797340f070d86a2bce5113') in 0.018480 seconds 
-  Import took 0.022429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Character_Dolphi_Albedo.png
-  artifactKey: Guid(8a6c36080b1042a4299ccdcd657b2232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Character_Dolphi_Albedo.png using Guid(8a6c36080b1042a4299ccdcd657b2232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116dc7c5c71e49af0558ced94a66f953') in 0.065316 seconds 
-  Import took 0.069623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/WallB_Albedo.png
-  artifactKey: Guid(1fe9a0834b32b074282295da7935ec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/WallB_Albedo.png using Guid(1fe9a0834b32b074282295da7935ec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6507e63b28160e77307867b3f3819e9') in 0.016571 seconds 
-  Import took 0.020540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Log_MetallicSmoothness.png
-  artifactKey: Guid(6fc2fe560cec2e842aca041b1d6d572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Log_MetallicSmoothness.png using Guid(6fc2fe560cec2e842aca041b1d6d572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c07291cceedc55a43cb47e28fc370a') in 0.068899 seconds 
-  Import took 0.073241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Character_Nina_AO.png
-  artifactKey: Guid(1864382123e72db428354d04405f13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Character_Nina_AO.png using Guid(1864382123e72db428354d04405f13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe038999ff6f4917aff45409c6217e48') in 0.017991 seconds 
-  Import took 0.023165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_PavementRoad_Albedo.png
-  artifactKey: Guid(f49839d44ac1c124ea3b5356759a3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_PavementRoad_Albedo.png using Guid(f49839d44ac1c124ea3b5356759a3c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e4476f4551eaaaeb67e1c175d184f7') in 0.013793 seconds 
-  Import took 0.018023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Pebbles_AO.png
-  artifactKey: Guid(0e1e209e526a0d94c91db37d0447d60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Pebbles_AO.png using Guid(0e1e209e526a0d94c91db37d0447d60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f463cb56c4e69a7566fa4b14a3a87e82') in 0.016860 seconds 
-  Import took 0.021459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_Corner_Albedo.png
-  artifactKey: Guid(8cdc0ef4e7df0714ca432362b8f20e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_Corner_Albedo.png using Guid(8cdc0ef4e7df0714ca432362b8f20e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cab80e18f7b51f2fc3aa4059d3c70a8') in 0.014806 seconds 
-  Import took 0.019151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/WallA_Albedo.png
-  artifactKey: Guid(82608ec6cd1903148a93db32f62ec79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/WallA_Albedo.png using Guid(82608ec6cd1903148a93db32f62ec79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82bdb66e4d97274240502f36c0f3e0f') in 0.097846 seconds 
-  Import took 0.102612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Pebbles_Albedo.png
-  artifactKey: Guid(75c2da173c996d249ad3a4bdcae7e860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Pebbles_Albedo.png using Guid(75c2da173c996d249ad3a4bdcae7e860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3de45436a9900aa7e7eca6765d018d') in 0.014626 seconds 
-  Import took 0.019018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Character_Kim_Albedo.png
-  artifactKey: Guid(529444ece7a29c245a35e4563d608642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Character_Kim_Albedo.png using Guid(529444ece7a29c245a35e4563d608642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7996f4aa5bf6d5c2cb34bce36748ae05') in 0.062242 seconds 
-  Import took 0.066239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Roof_Normal.png
-  artifactKey: Guid(3264ebc2d03499b4ebc3a334e1e43a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Roof_Normal.png using Guid(3264ebc2d03499b4ebc3a334e1e43a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5213337b4a4590d3e8530b90dc3c3cb7') in 0.016813 seconds 
-  Import took 0.020819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_Edge_Normal.png
-  artifactKey: Guid(bbb4242d49b229a4aab8414ff9a6eb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_Edge_Normal.png using Guid(bbb4242d49b229a4aab8414ff9a6eb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3718e7a6ba7959d10a7460bfa1e68bb1') in 0.015661 seconds 
-  Import took 0.020020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_PavementRoad_MetallicSmoothness.png
-  artifactKey: Guid(ce92158dbc94a6c4bb3756fac612f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_PavementRoad_MetallicSmoothness.png using Guid(ce92158dbc94a6c4bb3756fac612f824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7d67886a63ffc6b51e21b1afc78a25') in 0.016328 seconds 
-  Import took 0.020891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_Edge_Albedo.png
-  artifactKey: Guid(3490cc70726a2be409899a4252f974d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_Edge_Albedo.png using Guid(3490cc70726a2be409899a4252f974d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0addcbe3244f54fe51b76d1e146f80b6') in 0.015594 seconds 
-  Import took 0.020274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Log_AO.png
-  artifactKey: Guid(79d555f9c27f9124ea234cfcd3e02155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Log_AO.png using Guid(79d555f9c27f9124ea234cfcd3e02155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e227c53d619a2128b17c46fff56bf4d') in 0.068074 seconds 
-  Import took 0.072464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/WallA_AO.png
-  artifactKey: Guid(89bcb08938d1a8e4ba12ef8aeb3ca715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/WallA_AO.png using Guid(89bcb08938d1a8e4ba12ef8aeb3ca715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b66fd10517d27401e90b70f5b65c1d') in 0.064007 seconds 
-  Import took 0.068267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/WallB_Normal.png
-  artifactKey: Guid(89c5934d2d85a454ca5eb35766f709e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/WallB_Normal.png using Guid(89c5934d2d85a454ca5eb35766f709e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91004046896eb94cab043cf14639a152') in 0.016777 seconds 
-  Import took 0.021399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/WallA_Normal.png
-  artifactKey: Guid(f7854d81a7ece46409e3f645e9600e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/WallA_Normal.png using Guid(f7854d81a7ece46409e3f645e9600e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9b2baf428baf227e86f93e4d09c8b4') in 0.061743 seconds 
-  Import took 0.066024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/DoorWindows_AO.png
-  artifactKey: Guid(e4b2f18c9df38d5468d8e790b26182fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/DoorWindows_AO.png using Guid(e4b2f18c9df38d5468d8e790b26182fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873d27c4780305434dbe94f33b51540d') in 0.015415 seconds 
-  Import took 0.020072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/BeachBall_Albedo.png
-  artifactKey: Guid(926bd40e59068fa429f6b2d28f559d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/BeachBall_Albedo.png using Guid(926bd40e59068fa429f6b2d28f559d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec574923fc84072b090ece2f59f0795') in 0.031706 seconds 
-  Import took 0.036035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Log_Albedo.png
-  artifactKey: Guid(4c9af6777c1594d4bb474d556a7f6271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Log_Albedo.png using Guid(4c9af6777c1594d4bb474d556a7f6271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5792c61c0923b54910cbd3ae53cf3f4') in 0.076034 seconds 
-  Import took 0.080883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Character_Nina_MetallicSmoothness.png
-  artifactKey: Guid(dcab211ab5d18a44fa3af7a30bdafe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Character_Nina_MetallicSmoothness.png using Guid(dcab211ab5d18a44fa3af7a30bdafe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd74de905b9e8d51c3b2c76e4fb9d8f9') in 0.015248 seconds 
-  Import took 0.019459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/WallA_MetallicSmoothness.png
-  artifactKey: Guid(78a765f483ef44d40ab78bf884c4abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/WallA_MetallicSmoothness.png using Guid(78a765f483ef44d40ab78bf884c4abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776c627188b42c4cd49b93ec64ea3c5c') in 0.062140 seconds 
-  Import took 0.065930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/PillarsBlocks_Emissive.png
-  artifactKey: Guid(befa1813b4a03614b8d0df3cc5bfbcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/PillarsBlocks_Emissive.png using Guid(befa1813b4a03614b8d0df3cc5bfbcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8dcfe9ddd14929b1746545bea73b50') in 0.053717 seconds 
-  Import took 0.057931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/DoorWindows_Albedo.png
-  artifactKey: Guid(ef5023a940ff83040828586d87ecfa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/DoorWindows_Albedo.png using Guid(ef5023a940ff83040828586d87ecfa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0776a02ae0eb85cfde20b589e6eb90be') in 0.015727 seconds 
-  Import took 0.019744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/WallB_AO.png
-  artifactKey: Guid(98a5317a5b217cb44b96e0eb9ef336e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/WallB_AO.png using Guid(98a5317a5b217cb44b96e0eb9ef336e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd0918851691a6b0c2bc92113ec78b1') in 0.016772 seconds 
-  Import took 0.020873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Character_Kim_AO.png
-  artifactKey: Guid(f2c0152a90e33db42bba3b4586c2770b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Character_Kim_AO.png using Guid(f2c0152a90e33db42bba3b4586c2770b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815fd42c2a72f050b755830c8c57c5d3') in 0.057510 seconds 
-  Import took 0.061306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/PillarsBlocks_Normal.png
-  artifactKey: Guid(e179c7a31c133e840aafcdccb44bd487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/PillarsBlocks_Normal.png using Guid(e179c7a31c133e840aafcdccb44bd487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9699196b1fd8528c827b1b50a86ef155') in 0.015042 seconds 
-  Import took 0.019326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Pebbles_Normal.png
-  artifactKey: Guid(216760a213264514798b5c3e28cb9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Pebbles_Normal.png using Guid(216760a213264514798b5c3e28cb9e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d03ce4f3eedee970bd3381587e84d7b') in 0.018937 seconds 
-  Import took 0.023176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/UnityLogo.png
-  artifactKey: Guid(a96ec5a640928d24abb87b80952eeb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/UnityLogo.png using Guid(a96ec5a640928d24abb87b80952eeb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bef60cb786bab872239da61588a17a') in 0.036475 seconds 
-  Import took 0.040861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Ground_Edge_MetallicSmoothness.png
-  artifactKey: Guid(9c866866f67588f4e98db042907ba170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Ground_Edge_MetallicSmoothness.png using Guid(9c866866f67588f4e98db042907ba170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c52656a59752f65dd13ba793784ca5') in 0.019242 seconds 
-  Import took 0.023762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/DoorWindows_Normal.png
-  artifactKey: Guid(cdfa4035f035e7a4b87fc8aa88cf2ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/DoorWindows_Normal.png using Guid(cdfa4035f035e7a4b87fc8aa88cf2ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d66d61794420992a5a05926ccf2855') in 0.015532 seconds 
-  Import took 0.019645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Building_Signs_Albedo.png
-  artifactKey: Guid(947638ac9302e1f48b992db6db62d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Building_Signs_Albedo.png using Guid(947638ac9302e1f48b992db6db62d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae50172251b0d96de81520231d4b270') in 0.015814 seconds 
-  Import took 0.019760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Roof_Albedo.png
-  artifactKey: Guid(a463c60b57b820842b0efddb2d94846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Roof_Albedo.png using Guid(a463c60b57b820842b0efddb2d94846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102a302fc85d6565802065b378a6fb42') in 0.014348 seconds 
-  Import took 0.018666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/WallB_MetallicSmoothness.png
-  artifactKey: Guid(855c776768dcb554799ffebb5eec1689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/WallB_MetallicSmoothness.png using Guid(855c776768dcb554799ffebb5eec1689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77df8f8487bdf67d3ec928439507598b') in 0.014626 seconds 
-  Import took 0.018796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Character_Nina_Normal.png
-  artifactKey: Guid(b2b01f48f628bba4284e194be517b1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Character_Nina_Normal.png using Guid(b2b01f48f628bba4284e194be517b1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7eab872bb942198dcb1951f9927f14') in 0.017980 seconds 
-  Import took 0.022611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/PillarsBlocks_Albedo.png
-  artifactKey: Guid(2610f11d60618d44cb8c56eef7d10bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/PillarsBlocks_Albedo.png using Guid(2610f11d60618d44cb8c56eef7d10bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f83ebd5092fa946151313d15cda4ff') in 0.015358 seconds 
-  Import took 0.019510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Character_Nina_Albedo.png
-  artifactKey: Guid(6bb08926142bfae4581fa394070a49ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Character_Nina_Albedo.png using Guid(6bb08926142bfae4581fa394070a49ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ee356292e0b43901bef9a077a6a142') in 0.016675 seconds 
-  Import took 0.021627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Roof_MetallicSmoothness.png
-  artifactKey: Guid(9b9133231b576e948984e36cd4a0ed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Roof_MetallicSmoothness.png using Guid(9b9133231b576e948984e36cd4a0ed8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3476f2fdeeedb19295bec8697d35eee') in 0.014212 seconds 
-  Import took 0.018611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/DoorWindows_MetallicSmoothness.png
-  artifactKey: Guid(818d55cf8dee720438294c51a770f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/DoorWindows_MetallicSmoothness.png using Guid(818d55cf8dee720438294c51a770f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb2407f2a65abaf81d063aa782f942a') in 0.019909 seconds 
-  Import took 0.024714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Textures/Pebbles_MetallicSmoothness.png
-  artifactKey: Guid(8d554f7c865286a4ab03d17af13dec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Textures/Pebbles_MetallicSmoothness.png using Guid(8d554f7c865286a4ab03d17af13dec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c907cb4be45c8773a0024b9faad625e4') in 0.016921 seconds 
-  Import took 0.020995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2077.300080 seconds.
-  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
-  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07793a4d2b03e0e09167bfceb24a94b') in 0.452890 seconds 
-  Import took 0.457914 seconds .
+  path: Assets/GuidedProject/BeachsideTown/Materials/Doors and Windows.mat
+  artifactKey: Guid(acf6bf87b7dfe57489aa3da3b408f660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Materials/Doors and Windows.mat using Guid(acf6bf87b7dfe57489aa3da3b408f660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8faab423c5ee20cb45dc86ccbcd69b7') in 0.287901 seconds 
+  Import took 0.292816 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000252 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_WallPebbles_2.prefab
-  artifactKey: Guid(f52650492a32a554e8aefa9cfd3a71e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_WallPebbles_2.prefab using Guid(f52650492a32a554e8aefa9cfd3a71e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13557deef4d618ec9430be6affb5ee0c') in 0.101714 seconds 
-  Import took 0.108156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall2_Corner.prefab
-  artifactKey: Guid(90bdef9de1b68b540a9667dfedfc7dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall2_Corner.prefab using Guid(90bdef9de1b68b540a9667dfedfc7dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ef2400753b80d3d2db0992a97e7e79') in 0.342883 seconds 
-  Import took 0.348016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall2_1.fbx
-  artifactKey: Guid(196b601aaf0bfc94a811d277c8fea19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall2_1.fbx using Guid(196b601aaf0bfc94a811d277c8fea19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727c36cab14969352e26bf3a7713320f') in 0.069299 seconds 
-  Import took 0.087083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_WallPebbles_Steps.prefab
-  artifactKey: Guid(fbb6e35a6ae54cd4f8ae5f34e4f58b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_WallPebbles_Steps.prefab using Guid(fbb6e35a6ae54cd4f8ae5f34e4f58b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a372e1c46ae88d56a5f6ff5a4d0088ea') in 0.052392 seconds 
-  Import took 0.058968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall2_Corner.fbx
-  artifactKey: Guid(29985e18f3ad7714fa67da651de71874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall2_Corner.fbx using Guid(29985e18f3ad7714fa67da651de71874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf12e0b0b237d92299a11d19a300569') in 0.051479 seconds 
-  Import took 0.056591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall1_Corner.fbx
-  artifactKey: Guid(56a277d21c2bc62428d3db2558066557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall1_Corner.fbx using Guid(56a277d21c2bc62428d3db2558066557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18ba0197670c10704a7f4fb4b170296') in 0.057646 seconds 
-  Import took 0.062893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
-  artifactKey: Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif using Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed8573117dfc88bf695745e2de0a4c9') in 0.047153 seconds 
-  Import took 0.051298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall1_Corner.prefab
-  artifactKey: Guid(8c730c769f29fd947a05ae509e3c8226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall1_Corner.prefab using Guid(8c730c769f29fd947a05ae509e3c8226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89dee7d579fb976c288c0595d8e3298') in 0.030492 seconds 
-  Import took 0.035010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall2_1.prefab
-  artifactKey: Guid(842b982bb7846e645840679320570c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall2_1.prefab using Guid(842b982bb7846e645840679320570c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd271ccbf7efa29f0aa5ed6393c80b794') in 0.029022 seconds 
-  Import took 0.033656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall1_1.prefab
-  artifactKey: Guid(af6f0c56af0403548a325823255d9d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall1_1.prefab using Guid(af6f0c56af0403548a325823255d9d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653b0b6be62a06fcce38a20a0e75afbc') in 0.047870 seconds 
-  Import took 0.052514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall1_1.fbx
-  artifactKey: Guid(ba2dd6de1d7c3174eac2aee72469e234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall1_1.fbx using Guid(ba2dd6de1d7c3174eac2aee72469e234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc988a0ac0a798c671097cd50ed0cbbe') in 0.031368 seconds 
-  Import took 0.035337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
-  artifactKey: Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif using Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f419129674622345ff944ef16b90372a') in 0.020705 seconds 
-  Import took 0.024594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall2_2.prefab
-  artifactKey: Guid(b7822fe972bbbcd4680b399f315dab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall2_2.prefab using Guid(b7822fe972bbbcd4680b399f315dab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7f999c1f6a351e75e2582b5967b64f') in 0.256002 seconds 
-  Import took 0.262428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/ExampleAssets/Materials/DryWall_Mat.mat
-  artifactKey: Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/DryWall_Mat.mat using Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1d94bab502ca3021b8842519c6e122') in 0.113309 seconds 
-  Import took 0.117579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall2_2.fbx
-  artifactKey: Guid(da1c43516bcbff2438a348928134b65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall2_2.fbx using Guid(da1c43516bcbff2438a348928134b65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c1a91e351440e5d7af151f09854ba4') in 0.042844 seconds 
-  Import took 0.048594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_WallPebbles_1.prefab
-  artifactKey: Guid(6cf28c81f868ea349b40c2ad1035758d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_WallPebbles_1.prefab using Guid(6cf28c81f868ea349b40c2ad1035758d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8356c884a249a202204760f572adc471') in 0.049715 seconds 
-  Import took 0.056296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
-  artifactKey: Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif using Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948a9c3de600e9b06db1da9a0cb6f09d') in 0.014327 seconds 
-  Import took 0.018765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
-  artifactKey: Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif using Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1762d013214bf69b5dd047b82b0c63b9') in 0.013687 seconds 
-  Import took 0.017942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat
-  artifactKey: Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat using Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e084f414280b96736064de24338bc225') in 0.019330 seconds 
-  Import took 0.023579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall1_2.fbx
-  artifactKey: Guid(6dec0168ccb45e74d8f7e4a41e314321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Models/Environment/Wall1_2.fbx using Guid(6dec0168ccb45e74d8f7e4a41e314321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9152683d7785750b7fbdca560f83943') in 0.061476 seconds 
-  Import took 0.067739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Lamp_Wall.prefab
-  artifactKey: Guid(e39c4f4cc1467de429a8299f23f3f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Lamp_Wall.prefab using Guid(e39c4f4cc1467de429a8299f23f3f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ac61852bf1d9234a33e661655ab85f') in 0.030005 seconds 
-  Import took 0.035976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall1_2.prefab
-  artifactKey: Guid(a2f798a784a97b44c815c25ca2f9b88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Prefabs/Structure/Wall1_2.prefab using Guid(a2f798a784a97b44c815c25ca2f9b88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17af1699f09c9f5637533666e3fa1bf') in 0.043334 seconds 
-  Import took 0.049689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_WallPebbles_Corner.prefab
-  artifactKey: Guid(fb24745c576503d499c0fede0c4fce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_WallPebbles_Corner.prefab using Guid(fb24745c576503d499c0fede0c4fce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c38e8e689723db7376ad017633a7e0f') in 0.049985 seconds 
-  Import took 0.056538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.638411 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Fonts/Lato-Black.ttf
-  artifactKey: Guid(2e47818f10d84c64da5e64ee7f8d9263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Fonts/Lato-Black.ttf using Guid(2e47818f10d84c64da5e64ee7f8d9263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5de7c44d5d0950608314a107f861f4') in 0.047823 seconds 
-  Import took 0.052294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/GuidedProject/Shared/UI/Fonts/BebasNeue-Regular.ttf
-  artifactKey: Guid(50c7fe3898019ff4cba786e1f30ce18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/Shared/UI/Fonts/BebasNeue-Regular.ttf using Guid(50c7fe3898019ff4cba786e1f30ce18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07325dd1e58e0054c1632b499d6a4269') in 0.053139 seconds 
-  Import took 0.058193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/GuidedProject/Shared/UI/Fonts/Felipa-Regular.ttf
-  artifactKey: Guid(a6110ddb390eff0418196d70613777cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/Shared/UI/Fonts/Felipa-Regular.ttf using Guid(a6110ddb390eff0418196d70613777cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833f4dbb09a946d0809b2220b6bdddb7') in 0.041366 seconds 
-  Import took 0.045177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Font/BebasNeue-Regular.ttf
-  artifactKey: Guid(959b4e8ae87796d4d94a16ba64ad9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Font/BebasNeue-Regular.ttf using Guid(959b4e8ae87796d4d94a16ba64ad9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1f8736321eba415effdc190f77445e') in 0.046166 seconds 
-  Import took 0.050092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/GuidedProject/Shared/UI/Fonts/Anton-Regular.ttf
-  artifactKey: Guid(a24d3ead2abab3a4ab4cc5557b929387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/Shared/UI/Fonts/Anton-Regular.ttf using Guid(a24d3ead2abab3a4ab4cc5557b929387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8d3985c2dddbdf8e7bad643f7c77eb') in 0.042546 seconds 
-  Import took 0.046604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/GuidedProject/Shared/UI/Fonts/AlfaSlabOne-Regular.ttf
-  artifactKey: Guid(dca4a925dc2250b4fa25f16551be28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/Shared/UI/Fonts/AlfaSlabOne-Regular.ttf using Guid(dca4a925dc2250b4fa25f16551be28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a353f8a0994ebd4389f578fd81bd87') in 0.051543 seconds 
-  Import took 0.055752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/GuidedProject/Shared/UI/Fonts/PTSans-Bold.ttf
-  artifactKey: Guid(a708b96b5d5fac844b62cffca28ec43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/Shared/UI/Fonts/PTSans-Bold.ttf using Guid(a708b96b5d5fac844b62cffca28ec43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff85f49bf6bf2cb3c6530e742e6650c') in 0.048292 seconds 
-  Import took 0.052044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/GuidedProject/Shared/UI/Fonts/FjallaOne-Regular.ttf
-  artifactKey: Guid(06cf254591f1494438c67419d88ab904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/Shared/UI/Fonts/FjallaOne-Regular.ttf using Guid(06cf254591f1494438c67419d88ab904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d55883ae2b107bda7267360a0977c6f') in 0.024614 seconds 
-  Import took 0.028391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
-  artifactKey: Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat using Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b31a38aa84ec72b691f75649480a6fe') in 1.054970 seconds 
-  Import took 1.059010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Fonts/Anton-Regular.ttf
-  artifactKey: Guid(ff0b9e3b01f3c564db8fda3f77dd6ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Fonts/Anton-Regular.ttf using Guid(ff0b9e3b01f3c564db8fda3f77dd6ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9fd53b5c92f0c0429700d436a5c514') in 0.042137 seconds 
-  Import took 0.046416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 103.075144 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1fccef896d48891410691dfde716e5') in 0.008337 seconds 
-  Import took 0.012974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.958958 seconds.
-  path: Assets/Materials/Skybox_Mat.mat
-  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d54ab3375f41efad00566dcae11def2') in 0.018820 seconds 
-  Import took 0.025385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.485845 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/BeachBall.mat
-  artifactKey: Guid(b7d285a48ca3dbc4db06b8931b05c8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/BeachBall.mat using Guid(b7d285a48ca3dbc4db06b8931b05c8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126ec1977fd4a3489d68385f7c083390') in 0.630808 seconds 
-  Import took 0.635169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Ground_PavementRoad_Corner.mat
-  artifactKey: Guid(b260d70bf1f82784c89e33d851246bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Ground_PavementRoad_Corner.mat using Guid(b260d70bf1f82784c89e33d851246bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde98044c66039904453bc95e6bbb5c9') in 0.230238 seconds 
-  Import took 0.235000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Doors and Windows.mat
-  artifactKey: Guid(acf6bf87b7dfe57489aa3da3b408f660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Doors and Windows.mat using Guid(acf6bf87b7dfe57489aa3da3b408f660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48c246fc81f1f2c0a443d908f00c148') in 0.028029 seconds 
-  Import took 0.032830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Character_Dolphin.mat
-  artifactKey: Guid(3833864b81775d743986af10865226df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Character_Dolphin.mat using Guid(3833864b81775d743986af10865226df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b09b95a9209a4045021f65a37308c06') in 0.016691 seconds 
-  Import took 0.021034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/FlagPole_Mat.mat
-  artifactKey: Guid(0e817bad919ccbf40bb6b73fc5f141ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/FlagPole_Mat.mat using Guid(0e817bad919ccbf40bb6b73fc5f141ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0a48dbd5461532724d6b9ba82c5771') in 0.021122 seconds 
-  Import took 0.025573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Railings Lamps Pillars and bits.mat
-  artifactKey: Guid(3fe017173014c0c48b149dc8eb2d7247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Railings Lamps Pillars and bits.mat using Guid(3fe017173014c0c48b149dc8eb2d7247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18f9a087e9389c8a3739dffb29a77be') in 0.044646 seconds 
-  Import took 0.049581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/FlagPoleBlack_Mat.mat
-  artifactKey: Guid(e3d3775e239865848a4d971b03e489c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/FlagPoleBlack_Mat.mat using Guid(e3d3775e239865848a4d971b03e489c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a48eabab747c49a049a5d1d8578ec7') in 0.015325 seconds 
-  Import took 0.019324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Ground_PavementRoad.mat
-  artifactKey: Guid(8c80283a4abed624c89150bcb9d47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Ground_PavementRoad.mat using Guid(8c80283a4abed624c89150bcb9d47750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87f90c6995fc5ec6b867d4ad7e5d2d9') in 0.021687 seconds 
-  Import took 0.026153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Ground_Pebbles_Tile.mat
-  artifactKey: Guid(9664a313aeba8bf47a2861968c3428c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Ground_Pebbles_Tile.mat using Guid(9664a313aeba8bf47a2861968c3428c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51870e4722e27262496e0680be5d7d2') in 0.020891 seconds 
-  Import took 0.025160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Ground_Edge.mat
-  artifactKey: Guid(b14ce4ca89f805b43ae466c4fa382983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Ground_Edge.mat using Guid(b14ce4ca89f805b43ae466c4fa382983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e23a7c0d6449751c22b67d8b677bb38') in 0.019662 seconds 
-  Import took 0.024064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
   path: Assets/GuidedProject/BeachsideTown/Materials/Signs.mat
   artifactKey: Guid(0365ac3fcb839b24da94675fa94de38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Signs.mat using Guid(0365ac3fcb839b24da94675fa94de38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c146bf515eeaa2b7fae4dee7f323457b') in 0.018150 seconds 
-  Import took 0.022478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Character_Nina.mat
-  artifactKey: Guid(162190c008b5feb4281c4345812123e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Character_Nina.mat using Guid(162190c008b5feb4281c4345812123e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08347ee0fe33600fd980ae347e4273f9') in 0.026978 seconds 
-  Import took 0.031639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Character_Kim.mat
-  artifactKey: Guid(4c08f2a362801dc4d91ae87041e0e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Character_Kim.mat using Guid(4c08f2a362801dc4d91ae87041e0e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2745a7bc887112fb56a5696d73988b') in 0.025052 seconds 
-  Import took 0.030471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Ground_Fire_LogPile.mat
-  artifactKey: Guid(be224644d9f9e85429e4997468d034b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Ground_Fire_LogPile.mat using Guid(be224644d9f9e85429e4997468d034b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843bec86e1eb6b6efe8579fdb6a68d82') in 0.022256 seconds 
-  Import took 0.026493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Flag_Mat.mat
-  artifactKey: Guid(5a752802e5ffe6f49bd66550e41242f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Flag_Mat.mat using Guid(5a752802e5ffe6f49bd66550e41242f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70318a62e9d5f5c67a96515de4c49ac') in 0.015383 seconds 
-  Import took 0.019682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Ground_Pebbles.mat
-  artifactKey: Guid(9db13c441d0daf44093470c12fcb4494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Ground_Pebbles.mat using Guid(9db13c441d0daf44093470c12fcb4494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f46f56fa006f0d924d5e54f72fefaa') in 0.019464 seconds 
-  Import took 0.023932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Roof.mat
-  artifactKey: Guid(2c05386580088c94fb3374f7fcfc6eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Roof.mat using Guid(2c05386580088c94fb3374f7fcfc6eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5f502ae8997109e5c51d01b3067964') in 0.021944 seconds 
-  Import took 0.026339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.911342 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials
-  artifactKey: Guid(3f86e492231c94647bf0f76602f94c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials using Guid(3f86e492231c94647bf0f76602f94c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1585a0081039d5d9315741942afb8d') in 0.013216 seconds 
-  Import took 0.018200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.291838 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/New Material.mat
-  artifactKey: Guid(b7188e37d634a454eaf288f30dc7416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/New Material.mat using Guid(b7188e37d634a454eaf288f30dc7416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11d64ecf52125dd44b2edd8dd2e47ff') in 0.017641 seconds 
-  Import took 0.021984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Wall_B_Blue.mat
-  artifactKey: Guid(c69decf714398914fa7ee0e3bee91de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Wall_B_Blue.mat using Guid(c69decf714398914fa7ee0e3bee91de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194549f302264bd79e157e22ec70a5fc') in 0.032551 seconds 
-  Import took 0.037968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.386400 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Wall_B_Yellow.mat
-  artifactKey: Guid(b7188e37d634a454eaf288f30dc7416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Wall_B_Yellow.mat using Guid(b7188e37d634a454eaf288f30dc7416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23654576e24c6adb4d90a31284e3c06') in 0.016911 seconds 
-  Import took 0.021678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.506534 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Wall_A_Yellow.mat
-  artifactKey: Guid(b7188e37d634a454eaf288f30dc7416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Wall_A_Yellow.mat using Guid(b7188e37d634a454eaf288f30dc7416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc00118e05784ebd6d450bce3b73e98') in 0.018320 seconds 
-  Import took 0.023371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.729230 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Animations/Clerk@Walk.fbx
-  artifactKey: Guid(0e5e26bb7b8df3942849c1801e227538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Animations/Clerk@Walk.fbx using Guid(0e5e26bb7b8df3942849c1801e227538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc21dbe6cf7f80b3baaef9bb9eac11bf') in 0.177131 seconds 
-  Import took 0.197413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Shaders/Water.mat
-  artifactKey: Guid(b5803e0c9d261e341aebbbfdec0e6375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Shaders/Water.mat using Guid(b5803e0c9d261e341aebbbfdec0e6375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6712da9e82a972ecb8e07a76bb5941') in 0.039991 seconds 
-  Import took 0.044103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/GuidedProject/Shared/Audio/SoundEffects/Waves.ogg
-  artifactKey: Guid(9c48ae8cfa3fd2441887fe5e50157b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/Shared/Audio/SoundEffects/Waves.ogg using Guid(9c48ae8cfa3fd2441887fe5e50157b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ba1cee951b86cead6baaae71bca3fa') in 0.048821 seconds 
-  Import took 0.052676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Settings/ForwardRenderer.asset
-  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cf95242464b0f1307a08bc2392aaaa') in 0.009748 seconds 
-  Import took 0.013657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.592772 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Materials/Wall_A_Yellow.mat
-  artifactKey: Guid(b7188e37d634a454eaf288f30dc7416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Materials/Wall_A_Yellow.mat using Guid(b7188e37d634a454eaf288f30dc7416a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8a96e39994f95b0079846bde67a672') in 0.036150 seconds 
-  Import took 0.041129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 936.443672 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Shaders
-  artifactKey: Guid(9fb0a991989dbfb4893358a9b2323f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Shaders using Guid(9fb0a991989dbfb4893358a9b2323f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c66e8dc89bd527783e49ac8f8107eb') in 0.008359 seconds 
-  Import took 0.013943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 232.490718 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Shaders/FlagShader.shadergraph
-  artifactKey: Guid(3171b45156ded9b4d8908f8899efb5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Shaders/FlagShader.shadergraph using Guid(3171b45156ded9b4d8908f8899efb5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1f22984bb3608c2ec2945160fb2063') in 0.009643 seconds 
-  Import took 0.014009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.998550 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Shaders/Flag.mat
-  artifactKey: Guid(8805abacc90bc434cb20eba4ba2c1de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Shaders/Flag.mat using Guid(8805abacc90bc434cb20eba4ba2c1de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c00b456c1817d61905599be8af3433') in 0.034262 seconds 
-  Import took 0.039259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.002039 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Shaders/FlagShader.shadergraph
-  artifactKey: Guid(3171b45156ded9b4d8908f8899efb5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Shaders/FlagShader.shadergraph using Guid(3171b45156ded9b4d8908f8899efb5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8484bbe335b9aee0bd60e60b4eae153') in 0.004740 seconds 
-  Import took 0.009110 seconds .
+Start importing Assets/GuidedProject/BeachsideTown/Materials/Signs.mat using Guid(0365ac3fcb839b24da94675fa94de38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b7a9e07a255737427c229ab5c6b72b') in 0.022285 seconds 
+  Import took 0.027111 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006450 seconds.
+Registered in 0.004236 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 105.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.643 seconds
+- Completed reload, in  1.212 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1644ms)
-		BeginReloadAssembly (160ms)
+	ReloadAssembly (1212ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1392ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (433ms)
+			SetupTypeCache (331ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (536ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (305ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (63ms)
-Platform modules already initialized, skipping
-Shader 'HDRP/TerrainLit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3850 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.5 MB.
-System memory in use after: 188.3 MB.
-
-Unloading 98 unused Assets to reduce memory usage. Loaded Objects now: 4407.
-Total: 11.218200 ms (FindLiveObjects: 0.470100 ms CreateObjectMapping: 0.104900 ms MarkObjects: 3.739800 ms  DeleteObjects: 6.901200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 614.498660 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Shaders/FlagShader.shadergraph
-  artifactKey: Guid(3171b45156ded9b4d8908f8899efb5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Shaders/FlagShader.shadergraph using Guid(3171b45156ded9b4d8908f8899efb5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725a2e976d67fffe47c61580d9b892b1') in 0.035340 seconds 
-  Import took 0.041579 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004362 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.264 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1264ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1059ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (377ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (339ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (202ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (223ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2595 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 154.2 MB.
-System memory in use after: 154.5 MB.
+System memory in use before: 124.4 MB.
+System memory in use after: 124.6 MB.
 
-Unloading 357 unused Assets to reduce memory usage. Loaded Objects now: 4064.
-Total: 4.191100 ms (FindLiveObjects: 0.377200 ms CreateObjectMapping: 0.096200 ms MarkObjects: 3.577000 ms  DeleteObjects: 0.139100 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3226.
+Total: 3.947400 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.069100 ms MarkObjects: 3.555300 ms  DeleteObjects: 0.029800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1224,489 +206,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 255.034546 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Shaders/FlagShader.shadergraph
-  artifactKey: Guid(3171b45156ded9b4d8908f8899efb5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Shaders/FlagShader.shadergraph using Guid(3171b45156ded9b4d8908f8899efb5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632f6de9aecfdb38f7ae42580b0b5470') in 0.022975 seconds 
-  Import took 0.028799 seconds .
+  Time since last request: 141.837693 seconds.
+  path: Assets/GuidedProject/BeachsideTown/Materials/FallSkybox.mat
+  artifactKey: Guid(939f033efc6bc0d4eaba56e5f2637a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GuidedProject/BeachsideTown/Materials/FallSkybox.mat using Guid(939f033efc6bc0d4eaba56e5f2637a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adaa23e212eb98ad2d59c1585df1d08') in 0.190525 seconds 
+  Import took 0.206274 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 853.798489 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Shaders/Flag.mat
-  artifactKey: Guid(8805abacc90bc434cb20eba4ba2c1de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Shaders/Flag.mat using Guid(8805abacc90bc434cb20eba4ba2c1de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fc95d9f14caabf7ba92074c878fb63') in 0.187235 seconds 
-  Import took 0.193471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3357.877442 seconds.
-  path: Assets/GuidedProject/Shared/VisualEffectAssets/CandleFlame.tif
-  artifactKey: Guid(e966fe96fc4c60f4fa9eff9e6d32ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/Shared/VisualEffectAssets/CandleFlame.tif using Guid(e966fe96fc4c60f4fa9eff9e6d32ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2641cf70429b07227c35624f886441') in 0.045837 seconds 
-  Import took 0.051942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk LP_MetallicSmoothness.png
-  artifactKey: Guid(dd16b7b8e53cfb84499f62a8ea648e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk LP_MetallicSmoothness.png using Guid(dd16b7b8e53cfb84499f62a8ea648e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099d8c4fc298bbf66046eec8e1ef19a3') in 0.029816 seconds 
-  Import took 0.037117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Furniture/Chair_Normal.png
-  artifactKey: Guid(575f3d88d88daac49b36707b58cb492f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Furniture/Chair_Normal.png using Guid(575f3d88d88daac49b36707b58cb492f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c30a77fdb6707e71cad261aa2d2aba2') in 0.020916 seconds 
-  Import took 0.026781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk-ette LP_MetallicSmoothness.png
-  artifactKey: Guid(c14fc6cb5829791419138bd126630430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk-ette LP_MetallicSmoothness.png using Guid(c14fc6cb5829791419138bd126630430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b2c0234b55650cc40e5b93dfb37fb4') in 0.018182 seconds 
-  Import took 0.024886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk LP_Normal.png
-  artifactKey: Guid(4d45d5a3092cd7d48898f2bf924b8072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk LP_Normal.png using Guid(4d45d5a3092cd7d48898f2bf924b8072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f59761bef8c510b72db7a496e039083') in 0.018649 seconds 
-  Import took 0.024577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk-ette LP_Albedo.png
-  artifactKey: Guid(d5493284cfc373f4db704d0091a1330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk-ette LP_Albedo.png using Guid(d5493284cfc373f4db704d0091a1330a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0d796aa251de7c05028be24a752242') in 0.017117 seconds 
-  Import took 0.023816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk LP_Albedo.png
-  artifactKey: Guid(1d97bdd6ee3782b4fa5428201b64e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk LP_Albedo.png using Guid(1d97bdd6ee3782b4fa5428201b64e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bfaa8f0714b24c1f4060eaf9625aee') in 0.017446 seconds 
-  Import took 0.024010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Furniture/Chair_Albedo.png
-  artifactKey: Guid(e0f9b3aa44ec0f24d9c8b269e08ba6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Furniture/Chair_Albedo.png using Guid(e0f9b3aa44ec0f24d9c8b269e08ba6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ffabe34329a5689bc7d876e9befaf0') in 0.016539 seconds 
-  Import took 0.022260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.760596 seconds.
-  path: Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk-ette LP_Normal.png
-  artifactKey: Guid(015cfe203e034f84ca169f052424518f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/AlienVideoGameShop/Textures/Clerk-ette LP_Normal.png using Guid(015cfe203e034f84ca169f052424518f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840a3595fe67148d6a78be74ae0e408e') in 0.021562 seconds 
-  Import took 0.027667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_1_Albedo.png
-  artifactKey: Guid(6bcc7a061d2f7514f8f83b0d9ae491bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_1_Albedo.png using Guid(6bcc7a061d2f7514f8f83b0d9ae491bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70d705b4cc454e1e2346031afee232b') in 0.026346 seconds 
-  Import took 0.032034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_1_AmbientOcclusion.png
-  artifactKey: Guid(fb63e234b500f214394fc915715bf050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_1_AmbientOcclusion.png using Guid(fb63e234b500f214394fc915715bf050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2404deb5418375d1588a0f058d9c0101') in 0.015085 seconds 
-  Import took 0.020285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_1_Light_Albedo.png
-  artifactKey: Guid(58cf10a924cf3eb4e8891e2708965e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_1_Light_Albedo.png using Guid(58cf10a924cf3eb4e8891e2708965e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ee4f9c9ffd089604fffb3ef5655513') in 0.016814 seconds 
-  Import took 0.023138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.603317 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_1_MetallicSmooth.png
-  artifactKey: Guid(93de2c3ef04ea0047aded1ff0a580b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_1_MetallicSmooth.png using Guid(93de2c3ef04ea0047aded1ff0a580b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76a94c62196fcc4e546b5d6d6534c75') in 0.014745 seconds 
-  Import took 0.020357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_Albedo.png
-  artifactKey: Guid(b16152cb6b4222241993fb35633af75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_Albedo.png using Guid(b16152cb6b4222241993fb35633af75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea960d6d9b6730992b13368bb895170a') in 0.016783 seconds 
-  Import took 0.023031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_MetallicSmooth.png
-  artifactKey: Guid(0f83285a8980ac345a263af0332a3ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_MetallicSmooth.png using Guid(0f83285a8980ac345a263af0332a3ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd22a5d0eeb50ecebdb4b524d62973ab') in 0.015489 seconds 
-  Import took 0.020991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_Smoother_Normal.png
-  artifactKey: Guid(3de6c781e1b3b1946ae8d04d0b0d3628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_Smoother_Normal.png using Guid(3de6c781e1b3b1946ae8d04d0b0d3628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cd05429f40143e2ca54b0e5caa84a1') in 0.016453 seconds 
-  Import took 0.022171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_3_Normal.png
-  artifactKey: Guid(cc8eb6535e1e6c64e9f52a3e04ad6012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_3_Normal.png using Guid(cc8eb6535e1e6c64e9f52a3e04ad6012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd2df672d87ecf7f825ef6ec596afa3') in 0.016725 seconds 
-  Import took 0.022688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_3_Albedo.png
-  artifactKey: Guid(129174afa8c13cf449b1876c9d618461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_3_Albedo.png using Guid(129174afa8c13cf449b1876c9d618461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1c33d5275c9d6ac7d174012c775cc1') in 0.015969 seconds 
-  Import took 0.021847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_5_Brown_Normal.png
-  artifactKey: Guid(7f23c96d3990fad4784c1f277b0e8c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_5_Brown_Normal.png using Guid(7f23c96d3990fad4784c1f277b0e8c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72803e5af5db2d280742cb10455c169') in 0.016376 seconds 
-  Import took 0.021941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_5_Brown_Albedo.png
-  artifactKey: Guid(30585da1319bcc449ae592379b40eda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_5_Brown_Albedo.png using Guid(30585da1319bcc449ae592379b40eda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c7891f51ded1de47f32cdf05f4b046') in 0.015141 seconds 
-  Import took 0.021651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_6_MatteGrey_Normal.png
-  artifactKey: Guid(7cba1d0cf36d5cb43960b86439879a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_6_MatteGrey_Normal.png using Guid(7cba1d0cf36d5cb43960b86439879a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df341724bb884ac0861d0e0196af3a5') in 0.015463 seconds 
-  Import took 0.021215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_4_Dry_Normal.png
-  artifactKey: Guid(fc03ebd24aece2244b6603f23d00532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_4_Dry_Normal.png using Guid(fc03ebd24aece2244b6603f23d00532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf78f2c5e3d6270908ce4a2a091db2a') in 0.017788 seconds 
-  Import took 0.023736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_4_Dry_AmbientOcclusion.png
-  artifactKey: Guid(9d0dc3504b64f7a47a8e098c603b02ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_4_Dry_AmbientOcclusion.png using Guid(9d0dc3504b64f7a47a8e098c603b02ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957de6e7e0394eb291652d89ee34595f') in 0.017348 seconds 
-  Import took 0.023026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_3_AmbientOcclusion.png
-  artifactKey: Guid(f4e26cd6347ae9e4998df2f389c62a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_3_AmbientOcclusion.png using Guid(f4e26cd6347ae9e4998df2f389c62a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b106c3efe5106211a2b8a1394e0573') in 0.017184 seconds 
-  Import took 0.023981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_4_Dry_Height.png
-  artifactKey: Guid(be5bb2f57060c6c40ae33028dec72c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_4_Dry_Height.png using Guid(be5bb2f57060c6c40ae33028dec72c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b0b650b68e41556a68205badd676da') in 0.017874 seconds 
-  Import took 0.024121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_Flat_Albedo.png
-  artifactKey: Guid(78c409fcbb400ff4598aeb810941f993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_Flat_Albedo.png using Guid(78c409fcbb400ff4598aeb810941f993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8e3fec98df0a63839b16260b64dab4') in 0.017558 seconds 
-  Import took 0.024406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_7_Rough_Albedo.png
-  artifactKey: Guid(2e349d7baeb85d64b9aeee706f25f993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_7_Rough_Albedo.png using Guid(2e349d7baeb85d64b9aeee706f25f993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fdbc21b14d1e4850f9474c43417276') in 0.017083 seconds 
-  Import took 0.023710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_6_MatteGrey_Albedo.png
-  artifactKey: Guid(9094dbcf61cf5dd45a53f1ef377a05e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_6_MatteGrey_Albedo.png using Guid(9094dbcf61cf5dd45a53f1ef377a05e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b6f8e3845f8b65a31982c46c3e6b6d') in 0.016349 seconds 
-  Import took 0.022807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_1_Normal.png
-  artifactKey: Guid(3e6842cd79247504fa5873a219b0be5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_1_Normal.png using Guid(3e6842cd79247504fa5873a219b0be5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035adb25099b61afcc87b1c415da921c') in 0.016566 seconds 
-  Import took 0.023900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_Normal.png
-  artifactKey: Guid(6191dae3046e7964d850ef052ba4f65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_Normal.png using Guid(6191dae3046e7964d850ef052ba4f65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d733e1c72a0b137c7642cce2c47692f') in 0.018412 seconds 
-  Import took 0.025182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_9_Worn_Albedo.tif
-  artifactKey: Guid(e0da5f4d56ac2da43ae59f86898ef3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_9_Worn_Albedo.tif using Guid(e0da5f4d56ac2da43ae59f86898ef3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce093b7268e855812410a8b91c53bb9') in 0.015969 seconds 
-  Import took 0.022673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_7_Rough_Normal.png
-  artifactKey: Guid(0066657de33dea74fafc7e1a92c37e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_7_Rough_Normal.png using Guid(0066657de33dea74fafc7e1a92c37e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3920a6b8c9bb1a8e39c08ec64ceaa588') in 0.017385 seconds 
-  Import took 0.024436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
-  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864d2b361520e82158bacbe73f11f05a') in 0.015773 seconds 
-  Import took 0.021588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_9_Worn_AO.png
-  artifactKey: Guid(7b39f9189a9112f4f97f39bb3cdce931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_9_Worn_AO.png using Guid(7b39f9189a9112f4f97f39bb3cdce931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f831a889fb72d1cf20dc38084345f0') in 0.015661 seconds 
-  Import took 0.022360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_9_Worn_MetallicSmooth.png
-  artifactKey: Guid(07e7a2c8111240140b74d5e200cbe156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_9_Worn_MetallicSmooth.png using Guid(07e7a2c8111240140b74d5e200cbe156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371df70398b5cc7412dd63d736887819') in 0.015405 seconds 
-  Import took 0.021966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eaee825fee49737c47450774b31e7c8') in 0.016534 seconds 
-  Import took 0.023335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_9_Worn_Normal.tif
-  artifactKey: Guid(4515f95c92565aa4f94f5b8801f35054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_9_Worn_Normal.tif using Guid(4515f95c92565aa4f94f5b8801f35054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cde6d3fc4a5b70f0f432c70d0828a3') in 0.015807 seconds 
-  Import took 0.022454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_8_Smooth_BeigeFlecked_Albedo.png
-  artifactKey: Guid(54965c4ebd394e54e9c3ecb46a287fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_8_Smooth_BeigeFlecked_Albedo.png using Guid(54965c4ebd394e54e9c3ecb46a287fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129e5944d7ff3c916e614830f5e95c61') in 0.016640 seconds 
-  Import took 0.023003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_AmbientOcclusion.png
-  artifactKey: Guid(f85db31ad0ae75a4d9b53143242321e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_2_AmbientOcclusion.png using Guid(f85db31ad0ae75a4d9b53143242321e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54a26f36598e40e5a2a13e88e762970') in 0.015931 seconds 
-  Import took 0.022341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_8_Smooth_Normal.png
-  artifactKey: Guid(db901b5b46f45b849b88745a3b5a84cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_8_Smooth_Normal.png using Guid(db901b5b46f45b849b88745a3b5a84cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5e2fe7dc933df7b81399a9e172b6a1') in 0.016544 seconds 
-  Import took 0.022987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_4_Dry_Albedo.png
-  artifactKey: Guid(aef6b2baaa9a27942847749c9cf13b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Concrete/Concrete_4_Dry_Albedo.png using Guid(aef6b2baaa9a27942847749c9cf13b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d280cfd6588814584d38f18c3938913') in 0.016663 seconds 
-  Import took 0.022835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.987758 seconds.
-  path: Assets/TutorialInfo/Icons/UniversalIcon.png
-  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2469af74232faa562fa73eb837360c84') in 0.014556 seconds 
-  Import took 0.020407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.468341 seconds.
-  path: Assets/GuidedProject/Shared/VisualEffectAssets/LargeFlame.tif
-  artifactKey: Guid(a0a243891db69d743aa08a4066effb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/Shared/VisualEffectAssets/LargeFlame.tif using Guid(a0a243891db69d743aa08a4066effb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901cae4ea159cf30e3c180f480b97ac8') in 0.017599 seconds 
-  Import took 0.023553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.411099 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Prefabs/Structure
-  artifactKey: Guid(39b0b5efe58b74c4590f2dafef1f5431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Structure using Guid(39b0b5efe58b74c4590f2dafef1f5431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e29a600bb4b0e67ebe21d32457d787') in 0.019987 seconds 
-  Import took 0.025994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055275 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Drain.prefab
-  artifactKey: Guid(eb4f6a9933f321a4aadac27ba04c7f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Drain.prefab using Guid(eb4f6a9933f321a4aadac27ba04c7f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a53cc8bab5d74aabb2aa2e6dd7ca90') in 0.045725 seconds 
-  Import took 0.052617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_PavementRoad_Corner.prefab
-  artifactKey: Guid(578f9e4c110142d4b88de35c757b1f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_PavementRoad_Corner.prefab using Guid(578f9e4c110142d4b88de35c757b1f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fd169fd00b85921b14adb04e1abddd') in 0.023688 seconds 
-  Import took 0.029895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_PavementRoad.prefab
-  artifactKey: Guid(74fcae9ab7683a547b357109a585a001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Ground_PavementRoad.prefab using Guid(74fcae9ab7683a547b357109a585a001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7adbca6bc9efa309d2381a4d1056da9') in 0.024963 seconds 
-  Import took 0.031162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Lamp_Tall.prefab
-  artifactKey: Guid(a970d6cf422a41e4ead7d263ba364e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Prefabs/Structure/Lamp_Tall.prefab using Guid(a970d6cf422a41e4ead7d263ba364e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b8bfc0461b18d0785dab9bc41c7ae3') in 0.027687 seconds 
-  Import took 0.034225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.479444 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Models/Characters
-  artifactKey: Guid(90c38aac488c75c49a09b649a4a440d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Models/Characters using Guid(90c38aac488c75c49a09b649a4a440d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2338d14dde50391555aca9156794165d') in 0.007430 seconds 
-  Import took 0.012803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.525772 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Models/Characters/Dolphin.fbx
-  artifactKey: Guid(df3cda17201f29a4d80c740f2b39b103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Models/Characters/Dolphin.fbx using Guid(df3cda17201f29a4d80c740f2b39b103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344a119abccf506f7243cdd13291daf4') in 0.034819 seconds 
-  Import took 0.040644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Models/Characters/Kim.fbx
-  artifactKey: Guid(f5df2a110c0f4b94887f1bb4dd42edcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Models/Characters/Kim.fbx using Guid(f5df2a110c0f4b94887f1bb4dd42edcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c95428b1c21af529257ce91016f9cb') in 0.047657 seconds 
-  Import took 0.055806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/GuidedProject/BeachsideTown/Models/Characters/Nina.fbx
-  artifactKey: Guid(194aeeafa79260c4b94e75c82e8891a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/BeachsideTown/Models/Characters/Nina.fbx using Guid(194aeeafa79260c4b94e75c82e8891a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b024c1cb3e8a797d92b9e98626f483') in 0.049646 seconds 
-  Import took 0.057131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.351342 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Grass and Plants/Grass_Ground_Albedo.png
-  artifactKey: Guid(3ee6ac4f33e6cab4c9b93725c06a8df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Grass and Plants/Grass_Ground_Albedo.png using Guid(3ee6ac4f33e6cab4c9b93725c06a8df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ea2ebd18543c8fcd8aa1bd28e8366c') in 0.016494 seconds 
-  Import took 0.022499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/GuidedProject/Shared/Skies/KirbyCoveWhiteBalancedNoSun.exr
-  artifactKey: Guid(54725f73083ed704ca91cbf97bb6f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/Shared/Skies/KirbyCoveWhiteBalancedNoSun.exr using Guid(54725f73083ed704ca91cbf97bb6f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bc760e7b841f9054ff89965c6eb654') in 0.342433 seconds 
-  Import took 0.350467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Grass and Plants/Grass_Ground_AO.png
-  artifactKey: Guid(43bd6b84c1775b2488203ea6ddf3570d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Grass and Plants/Grass_Ground_AO.png using Guid(43bd6b84c1775b2488203ea6ddf3570d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bba19de218369b6dd3007a11967487c') in 0.013314 seconds 
-  Import took 0.018976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif
-  artifactKey: Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif using Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb55671b8d96876caa842640f08faf3') in 0.017909 seconds 
-  Import took 0.023957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/GuidedProject/ArchitecturalRendering/Textures/Grass and Plants/Grass_Ground_Normal.png
-  artifactKey: Guid(8b91a3de807841248958c75d7be7943d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GuidedProject/ArchitecturalRendering/Textures/Grass and Plants/Grass_Ground_Normal.png using Guid(8b91a3de807841248958c75d7be7943d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5d79686079589baf68a1464d1a6478') in 0.015952 seconds 
-  Import took 0.022161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
-  artifactKey: Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif using Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03ee8e47df99957ed6ccb3030558fc2') in 0.014820 seconds 
-  Import took 0.020214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif
-  artifactKey: Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif using Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0dfe8d06391703a7363536e0aa0614') in 0.015907 seconds 
-  Import took 0.021674 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
